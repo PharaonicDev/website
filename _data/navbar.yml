@@ -1,0 +1,12 @@
+# Navbar menu navigation links
+left:
+
+right:
+  - title: About
+    url: /
+
+  - title: Research
+    url: /research/
+
+  - title: Curriculum Vitae
+    url: /curriculum-vitae/

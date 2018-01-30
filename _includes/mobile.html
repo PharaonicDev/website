@@ -1,0 +1,18 @@
+<div id="mobile" class="uk-modal-full" data-uk-modal>
+    <div class="uk-modal-dialog uk-background-muted">
+        <button class="uk-modal-close-full uk-close-large uk-background-muted" type="button" data-uk-close></button>
+        <div class="uk-flex uk-flex-middle uk-flex-center" data-uk-height-viewport>
+          <ul class="uk-nav uk-nav-default uk-nav-center uk-nav-primary">
+              <li><a class="uk-logo uk-margin-small-bottom" href="{{ "/" | relative_url }}">{% if site.brand.image %}<img src="{{ site.post_assets | absolute_url }}{{ site.brand.image }}" alt="{{ site.brand.text | escape }}">{% else %}{{ site.brand.text }}{% endif %}</a></li>
+              {% for link in site.data.mobile %}
+                  {% if link.url contains 'http' %}
+                      {% assign domain = '' %}
+                  {% else %}
+                      {% assign domain = site.url %}
+                  {% endif %}
+              <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
+              {% endfor %}
+          </ul>
+        </div>
+    </div>
+</div>

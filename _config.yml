@@ -1,0 +1,113 @@
+# Welcome to Plus!
+#
+# This config file affects your whole blog.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
+
+# Site settings
+title:              Gerit Wagner
+description:        Curriculum Vitae
+url:                # Site base hostname & protocol, e.g. http://example.com
+baseurl:            "" # Site subpath, e.g. /blog
+# logo_image:
+#   light:            # logo-light.png
+#   dark:             # logo-dark.png
+permalink:          /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+date_format:        "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+post_assets:        /assets/img/ # Path to post content assets directory i.e post images, pdfs etc
+
+google_analytics:   # Google analytics code, get your code here https://www.google.com/analytics/
+
+footer:             # Default footer image settings
+    copyright:      Copyright 2018 Gerit Wagner
+
+# Style settings
+navbar:
+  background:       "#ffffff" # color value e.g. "#28a5f5"
+  style:            dark # text color, dark or light
+  sticky:           true
+  animation: true
+  transparent: true
+
+header:
+    background_image: header.jpg
+    background_align: top
+
+# Author settings
+author:
+  name:           Gerit Wagner
+  image:         gerit_wagner.jpg
+  bio:            >
+                  Gerit Wagner currently works at the Institut für Wirtschaftsinformatik, Universität Regensburg.
+                  Gerit does research in Information Science and Information Systems (Business Informatics).
+                  Their current project is 'Epistemological Advances Through Qualitative Literature Reviews in Information Systems Research (EPIQUALIS) (funded by the German Research Council (DFG)).'
+  url:
+  email:          gerit.wagner@wiwi.uni-regensburg.de
+  website:
+  facebook:
+  flickr:
+  dribbble:
+  github:
+  googleplus:
+  instagram:
+  linkedin:
+  pinterest:
+  twitter:
+  vimeo:
+  youtube:
+  researchgate:   https://www.researchgate.net/profile/Gerit_Wagner2
+  cv:             gerit_wagner_cv.pdf
+
+# Social buttons
+social_networks:
+  email:          gerit.wagner@wiwi.uni-regensburg.de
+  website:
+  facebook:
+  flickr:
+  dribbble:
+  github:
+  googleplus:
+  instagram:
+  linkedin:
+  pinterest:
+  twitter:
+  vimeo:
+  youtube:
+  researchgate:   https://www.researchgate.net/profile/Gerit_Wagner2
+
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - CHANGELOG
+  - LICENSE
+  - README
+
+sass:
+  style:            compressed
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
