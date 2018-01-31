@@ -2,7 +2,24 @@
 @mixin hook-button-small(){
   letter-spacing: 1px;
 }
-
+@mixin hook-button-misc(){
+  .button-outline-primary{
+    border: solid 1px $global-primary-background;
+    color: $global-primary-background;
+    &:hover {
+      background: $global-primary-background;
+      color: #fff;
+    }
+  }
+  .button-outline-secondary{
+    border: solid 1px $global-secondary-background;
+    color: $global-secondary-background;
+    &:hover {
+      background: $global-secondary-background;
+      color: #fff;
+    }
+  }
+}
 
 $section-large-padding-vertical-m:                 $global-large-margin * 1.8;
 
@@ -245,4 +262,9 @@ footer .social {
 @mixin hook-logo(){
   letter-spacing: 1px;
   font-weight: 500;
+}
+aside{
+  .email {
+    margin: 20px 0 25px 0;
+  }
 }
