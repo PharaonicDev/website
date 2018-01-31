@@ -7,8 +7,8 @@
 # Site settings
 title:              Gerit Wagner
 description:        Curriculum Vitae
-url:                "https://geritwagner.github.io/website/" # Site base hostname & protocol, e.g. http://example.com
-baseurl:            "" # Site subpath, e.g. /blog
+url:                "https://geritwagner.github.io" # Site base hostname & protocol, e.g. http://example.com
+baseurl:            "/website" # Site subpath, e.g. /blog
 # logo_image:
 #   light:            # logo-light.png
 #   dark:             # logo-dark.png
