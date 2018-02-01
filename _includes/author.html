@@ -1,13 +1,13 @@
-<div class="uk-margin-large-bottom">
-  <div data-uk-grid class="uk-grid-large">
+<div class="uk-margin-large-bottom author">
+  <div data-uk-grid>
     <div class="uk-width-1-3@s">
       {% if site.author.image %}
-        <img class="uk-margin-small-top uk-margin-medium-bottom" src="{{ site.post_assets | absolute_url }}{{ site.author.image }}" alt="{{ site.author.name }}">
+        <img class="uk-margin-small-top author-avatar" src="{{ site.post_assets | absolute_url }}{{ site.author.image }}" alt="{{ site.author.name }}">
       {% endif %}
     </div>
     <div class="uk-width-expand@s">
       {% if site.author.name %}
-        <h2 class="uk-margin-remove-top">{{ site.author.name }}</h2>
+        <h2 class="uk-margin-remove-top author-name">{{ site.author.name }}</h2>
       {% endif %}
 
       {% if site.author.bio %}
@@ -21,12 +21,12 @@
       <div data-uk-grid class="uk-child-width-expand@l uk-grid-small uk-flex-center uk-grid">
       {% if site.author.researchgate %}
         <div>
-          <a class="uk-button button-outline-primary uk-button-small uk-width-1-1" href="{{ site.author.researchgate }}" target="_blank">Researchgate</a>
+          <a class="uk-button button-outline-primary uk-button-small uk-width-1-1 author-researchgate" href="{{ site.author.researchgate }}" target="_blank">ResearchGate </a>
         </div>
       {% endif %}
       {% if site.author.cv %}
         <div>
-          <a class="uk-button button-outline-secondary uk-button-small uk-width-1-1" href="{{ site.post_assets | absolute_url }}{{ site.author.cv }}" target="_blank">Download CV</a>
+          <a class="uk-button button-outline-secondary uk-button-small uk-width-1-1 cv-download" href="{{ site.post_assets | absolute_url }}{{ site.author.cv }}" target="_blank">Download CV</a>
         </div>
       {% endif %}
       </div>
