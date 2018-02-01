@@ -36,43 +36,18 @@ header:
 # Author settings
 author:
   name:           Gerit Wagner
-  image:         gerit_wagner.jpg
+  image:          gerit_wagner.jpg
   bio:            >
                   Gerit Wagner currently works at the Institut für Wirtschaftsinformatik, Universität Regensburg.
                   Gerit does research in Information Science and Information Systems (Business Informatics).
-                  Their current project is 'Epistemological Advances Through Qualitative Literature Reviews in Information Systems Research (EPIQUALIS) (funded by the German Research Council (DFG)).'
-  url:
+
   email:          gerit.wagner@wiwi.uni-regensburg.de
-  website:
-  facebook:
-  flickr:
-  dribbble:
-  github:
-  googleplus:
-  instagram:
-  linkedin:
-  pinterest:
-  twitter:
-  vimeo:
-  youtube:
   researchgate:   https://www.researchgate.net/profile/Gerit_Wagner2
   cv:             gerit_wagner_cv.pdf
 
 # Social buttons
 social_networks:
   email:          gerit.wagner@wiwi.uni-regensburg.de
-  website:
-  facebook:
-  flickr:
-  dribbble:
-  github:
-  googleplus:
-  instagram:
-  linkedin:
-  pinterest:
-  twitter:
-  vimeo:
-  youtube:
   researchgate:   https://www.researchgate.net/profile/Gerit_Wagner2
 
 
@@ -99,12 +74,6 @@ sass:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
   # _pages
   - scope:
       path: ""

@@ -3,4 +3,22 @@ title: Curriculum Vitae
 layout: cv
 ---
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+{:.left}
+Dissertation (in progress)
+
+**Research Assistant and Doctoral Student**
+
+Working Title: “Epistemological Advancements in Information Systems Research: A Study of Selected Research Genres”.
+
+{:.left}
+Publications
+
+Schryen, G., Benlian, A., Rowe, F., Gregor, S., Larsen, K., Petter, S., Paré, G., Wagner, G., Haag, S., Yasasin, E. 2017. “Literature Reviews in IS Research: What Can Be Learnt from the Past and Other Fields?” Communications of the Association for Information Systems, 41, 759 – 774.
+
+Wagner, G., Prester, J., Roche, M., Benlian, A., and Schryen, G. 2016. “Factors Affecting the Scientific Impact of Literature Reviews: A Scientometric Study,” in Proceedings of the 37th International Conference on Information Systems, Dublin, Irland.
+
+Wagner, G., Prester, J., and Schryen, G. 2017. “Exploring the Scientific Impact of Information Systems Design Science Research: A Scientometric Study,” in Proceedings of the 38th International Conference on Information Systems, Seoul, South Korea.
+
+Schryen, G., Wagner, G., and Schlegel, A. 2016. “Development of two novel face-recognition CAPTCHAs: a security and usability study,” Computers & Security, 60, 95-116.
+
+Schryen, G., Wagner, G., and Benlian, A. 2015. “Theory of Knowledge for Literature Reviews: An Epistemological Model, Taxonomy and Empirical Analysis of IS Literature,” in Proceedings of the 36th International Conference on Information Systems, Fort Worth/Texas, USA.

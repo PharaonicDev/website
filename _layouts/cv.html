@@ -4,12 +4,25 @@ layout: default
 
 <div class="uk-section">
   <div class="uk-container uk-container-small">
-    <div class="">
-      {% include author.html %}
-    </div>
+    <h1 class="uk-article-title">{{ page.title | escape }}</h1>
+    {% include author.html %}
+    <hr class="uk-margin-large-bottom">
     <article class="uk-article">
-      <h1 class="uk-article-title">{{ page.title | escape }}</h1>
-      <div class="uk-article-content">
+      <div class="uk-article-content uk-position-relative cv">
+
+        {% for item in site.data.cv %}
+
+            {% if item.title %}
+                <h3>{{ item.title }}</h3>
+            {% endif %}
+
+            {% if item.content %}
+                <p>{{ item.content | markdownify | newline_to_br }}</p>
+            {% endif %}
+
+        {% endfor %}
+
+
           {{ content }}
       </div>
     </article>

@@ -1,6 +1,6 @@
 
 @mixin hook-button-small(){
-  letter-spacing: 1px;
+  //letter-spacing: 1px;
 }
 @mixin hook-button-misc(){
   .button-outline-primary{
@@ -101,7 +101,7 @@ $section-large-padding-vertical-m:                 $global-large-margin * 1.8;
 // ========================================================================
 @mixin hook-article(){
     position: relative;
-    font-size: 18px;
+    font-size: 17px;
     line-height: $lh-l;
     figure, .uk-slideshow {
         margin-top: $global-medium-margin * 1.1;
@@ -265,6 +265,18 @@ footer .social {
 }
 aside{
   .email {
-    margin: 20px 0 25px 0;
+    font-size: 0.9375rem;
+  }
+}
+.left {
+  position: relative;
+  //left: -200px;
+  margin-left: -200px;
+  max-width: 120px;
+  margin: 0;
+}
+.cv {
+  br {
+    margin-bottom: 20px;
   }
 }

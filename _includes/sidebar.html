@@ -1,17 +1,30 @@
-<img class="uk-margin-small-top" src="{{ site.post_assets | absolute_url }}{{ site.author.image }}" alt="{{ site.author.name }}">
-
-<h3>{{ site.author.name }}</h3>
-
-<p class="uk-text-muted lh-l">{{ site.author.bio }}</p>
-
-{% if site.author.email %}
-  <p class="uk-text-muted uk-link-muted uk-text-small email">Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+{% if site.author.image %}
+  <img class="uk-margin-small-top uk-margin-medium-bottom" src="{{ site.post_assets | absolute_url }}{{ site.author.image }}" alt="{{ site.author.name }}">
 {% endif %}
 
+{% if site.author.name %}
+  <h3 class="uk-margin-remove-top">{{ site.author.name }}</h3>
+{% endif %}
+
+{% if site.author.bio %}
+  <p class="lh-l uk-margin-medium-bottom">{{ site.author.bio }}</p>
+{% endif %}
+
+{% if site.author.email %}
+  <a class="uk-link-text uk-margin-medium-bottom email uk-display-block" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+{% endif %}
+
+<div data-uk-grid class="uk-child-width-expand@l uk-grid-small uk-flex-center uk-grid">
+
 {% if site.author.researchgate %}
-  <a class="uk-button button-outline-primary uk-button-small" href="{{ site.author.researchgate }}" target="_blank">Researchgate</a>
+  <div>
+    <a class="uk-button button-outline-primary uk-button-small uk-width-1-1" href="{{ site.author.researchgate }}" target="_blank">Researchgate</a>
+  </div>
 {% endif %}
 
 {% if site.author.cv %}
-  <a class="uk-button button-outline-secondary uk-button-small" href="{{ site.post_assets | absolute_url }}{{ site.author.cv }}" target="_blank">Download CV</a>
+  <div>
+    <a class="uk-button button-outline-secondary uk-button-small uk-width-1-1" href="{{ site.post_assets | absolute_url }}{{ site.author.cv }}" target="_blank">Download CV</a>
+  </div>
 {% endif %}
+</div>
