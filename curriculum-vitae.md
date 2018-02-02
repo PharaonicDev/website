@@ -2,3 +2,77 @@
 title: Curriculum Vitae
 layout: cv
 ---
+
+## Dissertation (in progress)
+
+**Research Assistant and Doctoral Student**
+
+Working Title: “Epistemological Advancements in Information Systems Research: A Study of Selected Research
+Genres”.
+
+## Publications
+
+Schryen, G., Benlian, A., Rowe, F., Gregor, S., Larsen, K., Petter, S., Paré, G., Wagner, G., Haag, S., Yasasin, E. 2017.
+“Literature Reviews in IS Research: What Can Be Learnt from the Past and Other Fields?”
+Communications of the Association for Information Systems, 41, 759 – 774.
+
+
+Wagner, G., Prester, J., Roche, M., Benlian, A., and Schryen, G. 2016.
+“Factors Affecting the Scientific Impact of Literature Reviews: A Scientometric Study,” in Proceedings of the 37th
+International Conference on Information Systems, Dublin, Irland.
+
+
+Wagner, G., Prester, J., and Schryen, G. 2017. “Exploring the Scientific Impact of Information Systems Design Science
+Research: A Scientometric Study,” in Proceedings of the 38th International Conference on Information Systems, Seoul, South Korea.
+
+
+Schryen, G., Wagner, G., and Schlegel, A. 2016. “Development of two novel face-recognition CAPTCHAs: a security and usability study,” Computers & Security, 60, 95-116.
+
+
+Schryen, G., Wagner, G., and Benlian, A. 2015. “Theory of Knowledge for Literature Reviews: An Epistemological Model, Taxonomy and Empirical Analysis of IS Literature,”
+in Proceedings of the 36th International Conference on Information Systems, Fort Worth/Texas, USA.
+
+## Presentations
+
+“Exploring the Scientific Impact of Information Systems Design Science Research: A Scientometric Study”
+
+- International Conference on Information Systems, Seoul, Südkorea. 13. Dezember 2017.
+
+- Forschungskolloquium Wirtschaftsinformatik, Regensburg. 4. Dezember 2017.
+
+
+“Epistemological Advancements in IS Research: A Study of Selected Genres”
+
+
+## Projects
+
+**Epistemological Advances Through Qualitative Literature Reviews in Information Systems Research (EPIQUALIS))**
+Gefördert von der Deutsche Forschungsgemeinschaft (DFG), Laufzeit: März 2017 - Februar 2020, Rolle: Projektleiter.
+
+
+## Teaching, Exercises, Seminars and Theses
+
+**Quantitative Methoden und Modelle der Wirtschaftsinformatik (Master)**
+Übung: WS 2012/2013, WS 2014/2015, WS 2015/2016.
+
+
+**Quantitative Grundlagen der Wirtschaftsinformatik (Bachelor)**
+Übung: SS 2013, SS 2014, SS 2015.
+
+
+**Theoretische Informatik (Bachelor)**
+Übung: WS 2011/2012, WS 2012/2013, WS 2014/2015, WS 2015/2016.
+
+## Service
+
+European Conference on Information Systems (2015, 2016). International Conference on Information Systems (2015, 2016).
+
+## Stipends and Awards
+
+Konferenzreisestipendium des Deutscher Akademischer Austauschdienst (DAAD) 2016.
+
+## Engagement
+
+Mitorganisation eines Panels zu Standalone Literature Reviews (ICIS 2016, Dublin).
+Entwicklung und Administration der Webseite von WINFOR e.V., seit 2016.
+Administration verschiedener Vereinswebseiten (v.a. www.lg-telis-finanz.de), seit 2011. Sprecher des Honors-Studiengangs, 2013.

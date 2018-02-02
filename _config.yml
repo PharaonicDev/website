@@ -44,6 +44,9 @@ author:
   email:          gerit.wagner@wiwi.uni-regensburg.de
   researchgate:   https://www.researchgate.net/profile/Gerit_Wagner2
   cv:             gerit_wagner_cv.pdf
+  orcid:
+    url:          https://epub.uni-regensburg.de/35779/
+    img:          orcid.gif
 
 # Social buttons
 social_networks:

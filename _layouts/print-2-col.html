@@ -27,11 +27,26 @@
 
       <article class="uk-article">
 
-        <div class="uk-article-content cv-online">
+            {% for item in site.data.cv %}
+
+            <div class="width-1-3 cv-title">
+
+              {% if item.title %}
+                  <h3 class="uk-margin-remove">{{ item.title }}</h3>
+              {% endif %}
+
+            </div>
+            <div class="width-2-3 cv-content">
+
+              {% if item.content %}
+                  {{ item.content | markdownify }}
+              {% endif %}
+
+            </div>
+
+            {% endfor %}
 
           {{ content }}
-
-        </div>
 
       </article>
     </div>

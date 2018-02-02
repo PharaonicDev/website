@@ -307,3 +307,11 @@ aside{
     float: left;
   }
 }
+
+@media (min-width: $breakpoint-small) {
+  .cv-online {
+    > *:not(h2){
+      margin-left: 40px;
+    }
+  }
+}
