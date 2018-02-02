@@ -22,7 +22,7 @@ $base-heading-color: #222;
 $base-h2-line-height: 1.4;
 $base-link-hover-text-decoration: underline;
 $base-body-color: #75797b;
-
+$base-em-color: $base-body-color;
 $global-font-family: system-ui;
 $global-link-color: $global-primary-background;
 $global-link-hover-color: $global-primary-background;
@@ -38,9 +38,9 @@ $icon-link-hover-color: $color-dark;
 $icon-link-active-color: darken($global-primary-background, 5%);
 $link-muted-hover-color: #222;
 
-$container-max-width: 1100px;
+$container-max-width: 900px;
 $container-small-max-width: 740px;
-$grid-large-gutter-horizontal: 100px;
+//$grid-large-gutter-horizontal: 100px;
 
 $card-small-body-padding-horizontal:            25px;
 $card-small-body-padding-vertical:              25px;

@@ -27,7 +27,7 @@
               </div>
           </div>
         {% endif %}
-        <div class="uk-margin-medium uk-text-small copyright">{{ site.footer.copyright }}</div>
+        <div class="uk-margin-medium uk-text-small copyright">{{ site.footer.copyright }}{% if site.footer.impressum %} | <a href="{{ site.url | append: site.baseurl }}{{ site.footer.impressum }}">Impressum</a>{% endif %}</div>
 
     </div>
 </footer>

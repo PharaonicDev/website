@@ -12,22 +12,63 @@
           <h2 class="uk-margin-remove-top author-name">{{ site.author.name }}</h2>
         {% endif %}
 
-        {% if site.author.bio %}
-          <p class="lh-l uk-margin-bottom">{{ site.author.bio | markdownify }}</p>
-        {% endif %}
+        <div data-uk-grid>
+          <div class="uk-width-1-4">
+            {% if site.author.image %}
+              <img class="uk-margin-top author-avatar" src="{{ site.post_assets | absolute_url }}{{ site.author.image }}" alt="{{ site.author.name }}">
+            {% endif %}
+          </div>
+          <div class="uk-width-expand">
 
-        {% if site.author.email %}
-          <p>Email: <a class="uk-link-text uk-margin-bottom" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
-        {% endif %}
+          {% if site.author.bio %}
+            <p class="lh-l uk-margin-bottom">{{ site.author.bio | markdownify }}</p>
+          {% endif %}
+          <!--
+          {% if site.author.email %}
+            <p>Email: <a class="uk-link-text uk-margin-bottom" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+          {% endif %}
 
-        {% if site.author.researchgate %}
-          <p>ResearchGate: <a class="uk-link-text uk-margin-bottom" href="{{ site.author.researchgate }}">{{ site.author.researchgate }}</a></p>
-        {% endif %}
+          {% if site.author.researchgate %}
+            <p>ResearchGate: <a class="uk-link-text uk-margin-bottom" href="{{ site.author.researchgate }}">{{ site.author.researchgate }}</a></p>
+          {% endif %}
+          -->
+          <div data-uk-grid>
+            <div class="uk-width-1-2">
+              {% if site.print.address %}
+                <p class="lh-l uk-margin-remove">{{ site.print.address }}</p>
+              {% endif %}
+            </div>
+            <div class="uk-width-1-2">
+              {% if site.print.email %}
+                <p class="lh-l uk-margin-remove">{{ site.print.email }}</p>
+              {% endif %}
+              {% if site.print.phone %}
+                <p class="lh-l uk-margin-remove">Phone: {{ site.print.phone }}</p>
+              {% endif %}
+              {% if site.print.mobile %}
+                <p class="lh-l uk-margin-remove">Mobile: {{ site.print.mobile }}</p>
+              {% endif %}
+            </div>
+          </div>
+
+        </div>
       </div>
 
-      <article class="uk-article">
+      <article class="uk-article uk-margin-large-top">
 
-        <div class="uk-article-content cv-online">
+        <div class="uk-article-content cv-print">
+
+          {% for item in site.data.cv %}
+
+            {% if item.title %}
+                <h2>{{ item.title }}</h2>
+            {% endif %}
+
+            {% if item.content %}
+                {{ item.content | markdownify }}
+            {% endif %}
+
+          {% endfor %}
 
           {{ content }}
 

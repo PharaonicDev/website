@@ -148,7 +148,10 @@ $section-large-padding-vertical-m:                 $global-large-margin * 1.8;
         p {
             margin-bottom: $global-margin;
         }
-        h1, h2, h3 {
+        h1:not(:first-child), h2:not(:first-child) {
+            margin-top: $global-medium-margin + 8;
+        }
+        h3:not(:first-child) {
             margin-top: $global-medium-margin;
         }
     }
@@ -164,11 +167,6 @@ $section-large-padding-vertical-m:                 $global-large-margin * 1.8;
 @mixin hook-utility-misc(){
     .lh-l {
         line-height: $lh-l;
-    }
-    .avatar {
-        max-width: 200px;
-        //margin-bottom: $global-large-margin;
-        border-radius: 50%;
     }
     .social-networks {
         //margin-top: $global-large-margin;
@@ -265,10 +263,17 @@ footer .social {
 }
 aside{
   .email {
-    font-size: 0.9375rem;
+    font-size: 0.8125rem;
   }
 }
-
+@media (max-width: $breakpoint-small) {
+  .author-avatar {
+      max-width: 200px;
+  }
+  .gutter-tsm {
+    margin-top: 40px !important;
+  }
+}
 @mixin hook-print(){
   @page {
     margin: 2.5cm;
@@ -281,37 +286,50 @@ aside{
 .print {
   color: #000;
   line-height: 1.7;
+  em {
+    color: #000;
+  }
   .uk-article {
     font-size: 1rem;
     line-height: 1.7;
   }
-  .cv-title h3 {
-    font-size: 1.25rem;
-    font-weight: 500;
-  }
   .author-name {
     font-weight: 500;
     border-bottom: solid 2px #000;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
-  .width-1-3, .width-2-3 {
-    margin-top: 5px;
+}
+.cv-print {
+  > *:not(h2){
+    margin-left: 30px;
   }
-  .width-2-3 {
-    width: 64%;
-    float: left;
-  }
-  .width-1-3 {
-    width: 30%;
-    margin-right: 5%;
-    float: left;
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000;
   }
 }
 
 @media (min-width: $breakpoint-small) {
   .cv-online {
     > *:not(h2){
-      margin-left: 40px;
+      margin-left: 30px;
     }
+  }
+}
+.orcid img {
+  //max-width: 150px;
+}
+.orcid img:hover {
+  opacity: .8;
+}
+@media (min-width: $breakpoint-small) {
+  header.uk-height-small {
+      height: 300px;
+  }
+}
+@media (min-width: $breakpoint-medium) {
+  header.uk-height-small {
+      height: 450px;
   }
 }

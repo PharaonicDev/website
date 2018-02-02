@@ -20,6 +20,7 @@ google_analytics:   # Google analytics code, get your code here https://www.goog
 
 footer:             # Default footer image settings
     copyright:      Copyright 2018 Gerit Wagner
+    impressum:      /impressum/
 
 # Style settings
 navbar:
@@ -47,6 +48,12 @@ author:
   orcid:
     url:          https://epub.uni-regensburg.de/35779/
     img:          orcid.gif
+
+print:
+  email:          gerit.wagner@posteo.de
+  address:        Galgenbergstr. 12a 3.10 <br> 93053 Regensburg
+  phone:          +49 (941) 943 5743
+  mobile:         +49 (178) 1345693
 
 # Social buttons
 social_networks:

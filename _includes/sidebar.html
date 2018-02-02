@@ -1,5 +1,5 @@
 {% if site.author.image %}
-  <img class="uk-margin-small-top uk-margin-medium-bottom" src="{{ site.post_assets | absolute_url }}{{ site.author.image }}" alt="{{ site.author.name }}">
+  <img class="uk-margin-small-top uk-margin-medium-bottom author-avatar" src="{{ site.post_assets | absolute_url }}{{ site.author.image }}" alt="{{ site.author.name }}">
 {% endif %}
 
 {% if site.author.name %}
@@ -7,24 +7,21 @@
 {% endif %}
 
 {% if site.author.bio %}
-  <p class="lh-l uk-margin-medium-bottom">{{ site.author.bio }}</p>
+  <p class="lh-l uk-margin-small-bottom">{{ site.author.bio }}</p>
 {% endif %}
 
 {% if site.author.email %}
   <a class="uk-link-text uk-margin-medium-bottom email uk-display-block" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
 {% endif %}
 
-<div data-uk-grid class="uk-child-width-expand@l uk-grid-small uk-flex-center uk-grid">
+{% if site.author.orcid.url %}
+    <a class="orcid uk-display-block uk-margin-small" href="{{ site.author.orcid.url }}" target="_blank"><img src="{{ site.post_assets | absolute_url }}{{ site.author.orcid.img }}" alt="ORCID"></a>
+{% endif %}
 
 {% if site.author.researchgate %}
-  <div>
-    <a class="uk-button button-outline-primary uk-button-small uk-width-1-1" href="{{ site.author.researchgate }}" target="_blank">Researchgate</a>
-  </div>
+    <a class="uk-button button-outline-primary uk-width-1-1 uk-margin-small" href="{{ site.author.researchgate }}" target="_blank">Researchgate</a>
 {% endif %}
 
 {% if site.author.cv %}
-  <div>
-    <a class="uk-button button-outline-secondary uk-button-small uk-width-1-1" href="{{ site.post_assets | absolute_url }}{{ site.author.cv }}" target="_blank">Download CV</a>
-  </div>
+    <a class="uk-button button-outline-secondary uk-width-1-1 uk-margin-small" href="{{ site.post_assets | absolute_url }}{{ site.author.cv }}" target="_blank">Download CV</a>
 {% endif %}
-</div>

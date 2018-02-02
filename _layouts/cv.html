@@ -7,12 +7,19 @@ layout: default
     <h1 class="uk-article-title">{{ page.title | escape }}</h1>
     {% include author.html %}
     <hr class="uk-margin-large-bottom">
-    <article class="uk-article">
-      <div class="uk-article-content cv-online">
+    <article class="uk-article uk-article-content cv-online">
+      {% for item in site.data.cv %}
 
-        {{ content }}
+        {% if item.title %}
+            <h2>{{ item.title }}</h2>
+        {% endif %}
 
-      </div>
+        {% if item.content %}
+            {{ item.content | markdownify }}
+        {% endif %}
+
+      {% endfor %}
+      {{ content }}
     </article>
   </div>
 </div>
