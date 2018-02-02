@@ -13,4 +13,4 @@ E-Mail: [gerit.wagner@wiwi.uni-regensburg.de](mailto:gerit.wagner@wiwi.uni-regen
 
 [ResearchGate](https://www.researchgate.net/profile/Gerit_Wagner2)  
 
-<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=12.030544281005861%2C48.963483466000156%2C12.14718818664551%2C49.03072150100559&amp;layer=mapnik&amp;marker=48.99711382864934%2C12.088866233825684"></iframe>
+<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=12.089236378669739%2C48.99759248906888%2C12.099396586418152%2C49.00173130202436&amp;layer=mapnik&amp;marker=48.99966193853697%2C12.094316482543945"></iframe>

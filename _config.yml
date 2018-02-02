@@ -71,6 +71,7 @@ exclude:
   - CHANGELOG
   - LICENSE
   - README
+  - vendor  # https://github.com/jekyll/jekyll/issues/2938 let Jekyll skip these view template folders.
 
 sass:
   style:            compressed
