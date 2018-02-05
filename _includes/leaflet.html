@@ -1,0 +1,15 @@
+<div id="map" class="uk-width-1-1 uk-height-large uk-margin-medium-top uk-margin-medium-bottom"></div>
+
+<script>
+
+  var map = L.map('map').setView([48.9995, 12.0943], 13);
+
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      attribution: ' '
+  }).addTo(map);
+
+  L.marker([48.9995, 12.0943]).addTo(map)
+      .bindPopup("Office: RWS 134a, <br>Universitätsstraße 31,<br>93053 Regensburg,<br>Germany")
+      .openPopup();
+
+</script>

@@ -263,7 +263,7 @@ footer .social {
 }
 aside{
   .email {
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
   }
 }
 @media (max-width: $breakpoint-small) {
@@ -286,11 +286,12 @@ aside{
 .print {
   color: #000;
   line-height: 1.7;
+  font-size: 0.9375rem;
   em {
     color: #000;
   }
   .uk-article {
-    font-size: 1rem;
+    font-size: 0.9375rem;
     line-height: 1.7;
   }
   .author-name {

@@ -7,15 +7,17 @@
 {% endif %}
 
 {% if site.author.bio %}
-  <p class="lh-l uk-margin-small-bottom">{{ site.author.bio }}</p>
+  <p class="lh-l uk-margin-bottom">{{ site.author.bio }}</p>
 {% endif %}
 
 {% if site.author.email %}
-  <a class="uk-link-text uk-margin-medium-bottom email uk-display-block" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+  <a class="uk-link-text uk-margin-bottom email uk-display-block" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
 {% endif %}
 
 {% if site.author.orcid.url %}
-    <a class="orcid uk-display-block uk-margin-small" href="{{ site.author.orcid.url }}" target="_blank"><img src="{{ site.post_assets | absolute_url }}{{ site.author.orcid.img }}" alt="ORCID"></a>
+  <p class="uk-margin uk-margin-bottom">
+    <a class="uk-display-inline-block" href="https://orcid.org"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="4" /></a> <a class="uk-display-inline-block uk-link-text email" href="{{ site.author.orcid.url }}">{{ site.author.orcid.url }}</a>
+  </p>
 {% endif %}
 
 {% if site.author.researchgate %}

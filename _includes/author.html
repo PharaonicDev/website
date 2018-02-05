@@ -15,15 +15,16 @@
       {% endif %}
 
       {% if site.author.email %}
-        Email: <a class="uk-link-text uk-margin-bottom email uk-display-inline-block" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        <p class="uk-margin">Email: <a class="uk-link-text email uk-display-inline-block" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      {% endif %}
+
+      {% if site.author.orcid.url %}
+        <p class="uk-margin uk-margin-medium-bottom">
+          <a class="uk-display-inline-block" href="https://orcid.org"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="4" /></a> <a class="uk-display-inline-block uk-link-text" href="{{ site.author.orcid.url }}">{{ site.author.orcid.url }}</a>
+        </p>
       {% endif %}
 
       <div data-uk-grid class="uk-child-width-expand@m uk-flex-center uk-flex uk-flex-middle">
-        {% if site.author.orcid.url %}
-          <div>
-            <a class="orcid" href="{{ site.author.orcid.url }}" target="_blank"><img src="{{ site.post_assets | absolute_url }}{{ site.author.orcid.img }}" alt="ORCID"></a>
-          </div>
-        {% endif %}
         {% if site.author.researchgate %}
           <div>
             <a class="uk-button button-outline-primary uk-button-small uk-width-1-1 author-researchgate" href="{{ site.author.researchgate }}" target="_blank">ResearchGate </a>
