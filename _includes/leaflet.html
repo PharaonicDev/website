@@ -11,7 +11,7 @@
   }).addTo(map);
 
   L.marker([48.9995, 12.0943]).addTo(map)
-      .bindPopup("Office: RWS 134a, <br>Universitätsstraße 31,<br>93053 Regensburg,<br>Germany")
+      .bindPopup("Office: <a href='{{ site.author.office_link }}' target='_blank'>{{ site.author.office }}</a>, <br>{{ site.author.street }},<br>{{ site.author.city }}")
       .openPopup();
 
 </script>

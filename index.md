@@ -9,8 +9,6 @@ Since 2017, Gerit's work is part of the EPIQUALIS-project ("Epistemological Adva
 
 ## Contact
 
-E-Mail: [gerit.wagner@wiwi.uni-regensburg.de](mailto:gerit.wagner@wiwi.uni-regensburg.de)
-
-[ResearchGate](https://www.researchgate.net/profile/Gerit_Wagner2)  
+E-Mail: [{{ site.author.email }}](mailto:{{ site.author.email }})
 
 {% include leaflet.html %}

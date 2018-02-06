@@ -4,16 +4,16 @@ title: Impressum
 
 Angaben gemäß § 5 TMG
 
-Gerit Wagner  
-Universitätsstr. 31  
-93053 Regensburg  
+{{ site.author.name }}  <br>
+{{ site.author.street }}<br>
+{{ site.author.city }}  
 
 **Vertreten durch:**  
-Gerit Wagner  
+{{ site.author.name }}  
 
 **Kontakt:**  
-Telefon: 0941-9435637  
-E-Mail: [gerit.wagner@wiwi.uni-regensburg.de](mailto:gerit.wagner@wiwi.uni-regensburg.de)  
+Telefon: {{ site.author.phone }}<br>
+E-Mail: [{{ site.author.email }}](mailto:{{ site.author.email }})  
 
 **Haftungsausschluss:**  
 

@@ -15,6 +15,7 @@ baseurl:            "/website" # Site subpath, e.g. /blog
 permalink:          /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:        "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 post_assets:        /assets/img/ # Path to post content assets directory i.e post images, pdfs etc
+pdf_assets:         /assets/pdfs/ # Path to post content assets directory i.e post images, pdfs etc
 
 google_analytics:   # Google analytics code, get your code here https://www.google.com/analytics/
 
@@ -39,24 +40,30 @@ author:
   name:           Gerit Wagner
   image:          gerit_wagner.jpg
   bio:            >
-                  Gerit Wagner currently works at the Institut für Wirtschaftsinformatik, Universität Regensburg.
-                  Gerit does research in Information Science and Information Systems (Business Informatics).
+                  Gerit Wagner works at the Professorship for Management Information Systems (Prof. Schryen), Universität Regensburg.
+                  His research focuses on knowledge development through literature reviews and design science in information systems.
 
-  email:          gerit.wagner@wiwi.uni-regensburg.de
+  email:          gerit.wagner@ur.de
   researchgate:   https://www.researchgate.net/profile/Gerit_Wagner2
   cv:             gerit_wagner_cv.pdf
   orcid:
     url:          https://orcid.org/0000-0003-3926-7717
+    id:           0000-0003-3926-7717
+  phone:          +49 941 943 5792
+  street:         Universitätsstr. 31
+  city:           93053 Regensburg
+  office:         RWS 134a
+  office_link:    http://www.uni-regensburg.de/Universitaet/Intern/gebaeudeplaene/recht-wirtschaft-erstes-obergeschoss.pdf
 
 print:
-  email:          gerit.wagner@posteo.de
+  email:          gerit.wagner@ur.de
   address:        Galgenbergstr. 12a 3.10 <br> 93053 Regensburg
   phone:          +49 (941) 943 5743
   mobile:         +49 (178) 1345693
 
 # Social buttons
 social_networks:
-  email:          gerit.wagner@wiwi.uni-regensburg.de
+  email:          gerit.wagner@ur.de
   researchgate:   https://www.researchgate.net/profile/Gerit_Wagner2
 
 

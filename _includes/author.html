@@ -20,7 +20,7 @@
 
       {% if site.author.orcid.url %}
         <p class="uk-margin uk-margin-medium-bottom">
-          <a class="uk-display-inline-block" href="https://orcid.org"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="4" /></a> <a class="uk-display-inline-block uk-link-text" href="{{ site.author.orcid.url }}">{{ site.author.orcid.url }}</a>
+          <a class="uk-display-inline-block" href="{{ site.author.orcid.url }}" target="_blank"><img alt="ORCID logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width="16" height="16" hspace="4" /></a> <a class="uk-display-inline-block uk-link-text" href="{{ site.author.orcid.url }}" target="_blank">{{ site.author.orcid.id }}</a>
         </p>
       {% endif %}
 
@@ -32,7 +32,7 @@
         {% endif %}
         {% if site.author.cv %}
           <div>
-            <a class="uk-button button-outline-secondary uk-button-small uk-width-1-1 cv-download" href="{{ site.post_assets | absolute_url }}{{ site.author.cv }}" target="_blank">Download CV</a>
+            <a class="uk-button button-outline-secondary uk-button-small uk-width-1-1 cv-download" href="{{ site.pdf_assets | absolute_url }}{{ site.author.cv }}" target="_blank">Download CV</a>
           </div>
         {% endif %}
       </div>
